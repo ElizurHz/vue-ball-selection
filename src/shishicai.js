@@ -1,4 +1,3 @@
-// example config - a lottery ball selection
 const ballList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 const shortcut = [{
   title: '全',
@@ -23,7 +22,7 @@ const shortcut = [{
 export const pattern = [{
   title: '万位',
   ballList: ballList,
-  leaveOutList: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  leaveOutList: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],      // 动态数据在组件中绑定即可
   ballShortcutSelection: shortcut
 }, {
   title: '千位',
